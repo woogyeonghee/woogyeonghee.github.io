@@ -1,0 +1,165 @@
+current directory: C:/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c
+C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20210819-10940-1c4we0x.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for shlwapi.h... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ruby_native_thread_p()... yes
+checking for ruby_thread_has_gvl_p()... yes
+creating extconf.h
+creating Makefile
+
+current directory: C:/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: C:/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c
+make "DESTDIR="
+generating ffi_c-x64-mingw32.def
+Configuring libffi
+make -C "/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32"
+make[1]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 들어감
+make 'AR_FLAGS=' 'CC_FOR_BUILD=' 'CFLAGS=-Wall -fexceptions' 'CXXFLAGS=-g -O2' 'CFLAGS_FOR_BUILD=' 'CFLAGS_FOR_TARGET=' 'INSTALL=/usr/bin/install -c' 'INSTALL_DATA=/usr/bin/install -c -m 644' 'INSTALL_PROGRAM=/usr/bin/install -c' 'INSTALL_SCRIPT=/usr/bin/install -c' 'JC1FLAGS=' 'LDFLAGS=' 'LIBCFLAGS=' 'LIBCFLAGS_FOR_TARGET=' 'MAKE=make' 'MAKEINFO=/bin/sh /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/missing makeinfo ' 'PICFLAG=' 'PICFLAG_FOR_TARGET=' 'RUNTESTFLAGS=' 'SHELL=/bin/sh' 'exec_prefix=/mingw64' 'infodir=/mingw64/share/info' 'libdir=/mingw64/lib' 'mandir=/mingw64/share/man' 'prefix=/mingw64' 'AR=ar' 'AS=as' 'CC=x86_64-w64-mingw32-gcc' 'CXX=x86_64-w64-mingw32-g++' 'LD=C:/Ruby27-x64/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe' 'NM=/mingw64/bin/nm -B' 'RANLIB=ranlib' 'DESTDIR=' all-recursive
+make[2]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 들어감
+Making all in include
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/include' 들어감
+make[3]: 'all'을(를) 위해 할 일이 없습니다.
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/include' 나감
+Making all in testsuite
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/testsuite' 들어감
+make[3]: 'all'을(를) 위해 할 일이 없습니다.
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/testsuite' 나감
+Making all in man
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/man' 들어감
+make[3]: 'all'을(를) 위해 할 일이 없습니다.
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/man' 나감
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 들어감
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/prep_cif.lo /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/prep_cif.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/prep_cif.c  -DDLL_EXPORT -DPIC -o src/.libs/prep_cif.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/types.lo /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/types.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/types.c  -DDLL_EXPORT -DPIC -o src/.libs/types.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/raw_api.lo /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/raw_api.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/raw_api.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/java_raw_api.lo /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/java_raw_api.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/java_raw_api.c  -DDLL_EXPORT -DPIC -o src/.libs/java_raw_api.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/closures.lo /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/closures.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/closures.c  -DDLL_EXPORT -DPIC -o src/.libs/closures.o
+/bin/sh ./libtool  --tag=CC   --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src   -Wall -fexceptions -c -o src/x86/ffiw64.lo /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/x86/ffiw64.c
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src -Wall -fexceptions -c /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/x86/ffiw64.c  -DDLL_EXPORT -DPIC -o src/x86/.libs/ffiw64.o
+/bin/sh ./libtool    --mode=compile x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src  -c -o src/x86/win64.lo /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/x86/win64.S
+libtool: compile:  x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src -c /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src/x86/win64.S  -DDLL_EXPORT -DPIC -o src/x86/.libs/win64.o
+x86_64-w64-mingw32-gcc -DHAVE_CONFIG_H -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi  -I. -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/include -Iinclude -I/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/src   -Wall -fexceptions -DX86_WIN64 -E -x assembler-with-cpp -o libffi.map /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/libffi.map.in
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-w64-mingw32-gcc  -Wall -fexceptions   -o libffi_convenience.la  src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo   src/x86/ffiw64.lo src/x86/win64.lo 
+libtool: link: rm -fr  .libs/libffi_convenience.a(D)
+libtool: link: ar cru .libs/libffi_convenience.a src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o 
+libtool: link: ranlib .libs/libffi_convenience.a
+libtool: link: ( cd ".libs" && rm -f "libffi_convenience.la" && cp -pR "../libffi_convenience.la" "libffi_convenience.la" )
+/bin/sh ./libtool  --tag=CC   --mode=link x86_64-w64-mingw32-gcc  -Wall -fexceptions -no-undefined -version-info `grep -v '^#' /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/libtool-version` -Wl,--version-script,libffi.map  -no-undefined -bindir "/mingw64/bin"  -o libffi.la -rpath /mingw64/lib/../lib src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo  src/x86/ffiw64.lo src/x86/win64.lo 
+libtool: link: x86_64-w64-mingw32-gcc -shared  src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffiw64.o src/x86/.libs/win64.o    -Wl,--version-script -Wl,libffi.map   -o .libs/libffi-7.dll -Wl,--enable-auto-image-base -Xlinker --out-implib -Xlinker .libs/libffi.dll.a
+libtool: link: ( cd ".libs" && rm -f "libffi.la" && cp -pR "../libffi.la" "libffi.la" )
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 나감
+make[2]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 나감
+make[1]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 나감
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+Function.c: In function 'callback_prep':
+Function.c:867:5: warning: 'ffi_prep_closure' is deprecated: use ffi_prep_closure_loc instead [-Wdeprecated-declarations]
+  867 |     ffiStatus = ffi_prep_closure(code, &fnInfo->ffi_cif, callback_invoke, closure);
+      |     ^~~~~~~~~
+In file included from Function.c:52:
+C:/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/include/ffi.h:334:1: note: declared here
+  334 | ffi_prep_closure (ffi_closure*,
+      | ^~~~~~~~~~~~~~~~
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+MethodHandle.c: In function 'prep_trampoline':
+MethodHandle.c:151:5: warning: 'ffi_prep_closure' is deprecated: use ffi_prep_closure_loc instead [-Wdeprecated-declarations]
+  151 |     ffiStatus = ffi_prep_closure(code, &mh_cif, attached_method_invoke, closure);
+      |     ^~~~~~~~~
+In file included from MethodHandle.c:53:
+C:/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/include/ffi.h:334:1: note: declared here
+  334 | ffi_prep_closure (ffi_closure*,
+      | ^~~~~~~~~~~~~~~~
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+
+current directory: C:/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c
+make "DESTDIR=" install
+make -C "/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32"
+make[1]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 들어감
+make 'AR_FLAGS=' 'CC_FOR_BUILD=' 'CFLAGS=-Wall -fexceptions' 'CXXFLAGS=-g -O2' 'CFLAGS_FOR_BUILD=' 'CFLAGS_FOR_TARGET=' 'INSTALL=/usr/bin/install -c' 'INSTALL_DATA=/usr/bin/install -c -m 644' 'INSTALL_PROGRAM=/usr/bin/install -c' 'INSTALL_SCRIPT=/usr/bin/install -c' 'JC1FLAGS=' 'LDFLAGS=' 'LIBCFLAGS=' 'LIBCFLAGS_FOR_TARGET=' 'MAKE=make' 'MAKEINFO=/bin/sh /c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi/missing makeinfo ' 'PICFLAG=' 'PICFLAG_FOR_TARGET=' 'RUNTESTFLAGS=' 'SHELL=/bin/sh' 'exec_prefix=/mingw64' 'infodir=/mingw64/share/info' 'libdir=/mingw64/lib' 'mandir=/mingw64/share/man' 'prefix=/mingw64' 'AR=ar' 'AS=as' 'CC=x86_64-w64-mingw32-gcc' 'CXX=x86_64-w64-mingw32-g++' 'LD=C:/Ruby27-x64/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe' 'NM=/mingw64/bin/nm -B' 'RANLIB=ranlib' 'DESTDIR=' all-recursive
+make[2]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 들어감
+Making all in include
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/include' 들어감
+make[3]: 'all'을(를) 위해 할 일이 없습니다.
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/include' 나감
+Making all in testsuite
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/testsuite' 들어감
+make[3]: 'all'을(를) 위해 할 일이 없습니다.
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/testsuite' 나감
+Making all in man
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/man' 들어감
+make[3]: 'all'을(를) 위해 할 일이 없습니다.
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/man' 나감
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 들어감
+make[3]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 나감
+make[2]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 나감
+make[1]: 디렉터리 '/c/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32' 나감
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+Function.c: In function 'callback_prep':
+Function.c:867:5: warning: 'ffi_prep_closure' is deprecated: use ffi_prep_closure_loc instead [-Wdeprecated-declarations]
+  867 |     ffiStatus = ffi_prep_closure(code, &fnInfo->ffi_cif, callback_invoke, closure);
+      |     ^~~~~~~~~
+In file included from Function.c:52:
+C:/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/include/ffi.h:334:1: note: declared here
+  334 | ffi_prep_closure (ffi_closure*,
+      | ^~~~~~~~~~~~~~~~
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+MethodHandle.c: In function 'prep_trampoline':
+MethodHandle.c:151:5: warning: 'ffi_prep_closure' is deprecated: use ffi_prep_closure_loc instead [-Wdeprecated-declarations]
+  151 |     ffiStatus = ffi_prep_closure(code, &mh_cif, attached_method_invoke, closure);
+      |     ^~~~~~~~~
+In file included from MethodHandle.c:53:
+C:/Users/user/Desktop/GIT/blog/woogyeonghee.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.11.3/ext/ffi_c/libffi-x64-mingw32/include/ffi.h:334:1: note: declared here
+  334 | ffi_prep_closure (ffi_closure*,
+      | ^~~~~~~~~~~~~~~~
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20210819-10940-1p8jfih

@@ -1,0 +1,241 @@
+"pkg-config --exists libffi"
+package configuration for libffi is not found
+have_header: checking for ffi.h... -------------------- no
+
+"gcc -o conftest.exe -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby27-x64/lib -L. -pipe -s -fstack-protector-strong  -m64   -lx64-msvcrt-ruby270  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+"gcc -E -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong  conftest.c -o conftest.i"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+--------------------
+
+find_header: checking for ffi.h in /usr/local/include,/usr/include/ffi... -------------------- no
+
+"gcc -E -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong  conftest.c -o conftest.i"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+"gcc -E -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -I/usr/local/include conftest.c -o conftest.i"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+"gcc -E -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -I/usr/include/ffi conftest.c -o conftest.i"
+conftest.c:5:10: fatal error: ffi.h: No such file or directory
+    5 | #include <ffi.h>
+      |          ^~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <ffi.h>
+/* end */
+
+--------------------
+
+have_header: checking for shlwapi.h... -------------------- yes
+
+"gcc -E -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <shlwapi.h>
+/* end */
+
+--------------------
+
+have_func: checking for rb_thread_call_without_gvl()... -------------------- yes
+
+"gcc -o conftest.exe -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby27-x64/lib -L. -pipe -s -fstack-protector-strong  -m64   -lx64-msvcrt-ruby270  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:17:57: error: 'rb_thread_call_without_gvl' undeclared (first use in this function)
+   17 | int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+conftest.c:17:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
+/* end */
+
+"gcc -o conftest.exe -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby27-x64/lib -L. -pipe -s -fstack-protector-strong  -m64   -lx64-msvcrt-ruby270  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: extern void rb_thread_call_without_gvl();
+18: int t(void) { rb_thread_call_without_gvl(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for ruby_native_thread_p()... -------------------- yes
+
+"gcc -o conftest.exe -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby27-x64/lib -L. -pipe -s -fstack-protector-strong  -m64   -lx64-msvcrt-ruby270  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))ruby_native_thread_p; return !p; }
+/* end */
+
+--------------------
+
+have_func: checking for ruby_thread_has_gvl_p()... -------------------- yes
+
+"gcc -o conftest.exe -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby27-x64/lib -L. -pipe -s -fstack-protector-strong  -m64   -lx64-msvcrt-ruby270  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+conftest.c: In function 't':
+conftest.c:17:57: error: 'ruby_thread_has_gvl_p' undeclared (first use in this function)
+   17 | int t(void) { void ((*volatile p)()); p = (void ((*)()))ruby_thread_has_gvl_p; return !p; }
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~
+conftest.c:17:57: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: int t(void) { void ((*volatile p)()); p = (void ((*)()))ruby_thread_has_gvl_p; return !p; }
+/* end */
+
+"gcc -o conftest.exe -IC:/Ruby27-x64/include/ruby-2.7.0/x64-mingw32 -IC:/Ruby27-x64/include/ruby-2.7.0/ruby/backward -IC:/Ruby27-x64/include/ruby-2.7.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Ruby27-x64/lib -L. -pipe -s -fstack-protector-strong  -m64   -lx64-msvcrt-ruby270  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi  "
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <winsock2.h>
+ 4: #include <windows.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     int (* volatile tp)(void)=(int (*)(void))&t;
+12:     printf("%d", (*tp)());
+13:   }
+14: 
+15:   return !!argv[argc];
+16: }
+17: extern void ruby_thread_has_gvl_p();
+18: int t(void) { ruby_thread_has_gvl_p(); return 0; }
+/* end */
+
+--------------------
+
+extconf.h is:
+/* begin */
+ 1: #ifndef EXTCONF_H
+ 2: #define EXTCONF_H
+ 3: #define HAVE_SHLWAPI_H 1
+ 4: #define HAVE_RB_THREAD_CALL_WITHOUT_GVL 1
+ 5: #define HAVE_RUBY_NATIVE_THREAD_P 1
+ 6: #define HAVE_RUBY_THREAD_HAS_GVL_P 1
+ 7: #define HAVE_FFI_PREP_CIF_VAR 1
+ 8: #define USE_INTERNAL_LIBFFI 1
+ 9: #define RUBY_1_9 1
+10: #endif
+/* end */
+
