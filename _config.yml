@@ -1,5 +1,5 @@
 title : Elementary - Jekyll Blog Theme
-name: 'Elementary Jekyll Theme'
+name: 'MY_recipes'
 description: 'Simple, light weight, responsive jekyll theme for hackers'
 
 markdown: kramdown
@@ -16,13 +16,33 @@ featured_posts:
     title: 'Featured post #3'
 
 collections:
-  news:
-    title: News
+  posts:
+    title: All posts
     default_open: false
     output: true
-  posts:
-    title: Essays
-    default_open: true
+  aelectronic_parts:
+    title: electronic parts
+    default_open: false
+    output: true
+  bstm32:
+    title: stm32
+    default_open: false
+    output: true
+  craspberrypi:
+    title: raspberrypi
+    default_open: false
+    output: true
+  dzybo:
+    title: zybo
+    default_open: false
+    output: true
+  ecommunication:
+    title: communication
+    default_open: false
+    output: true
+  fpython:
+    title: python
+    default_open: false
     output: true
 
 defaults:
@@ -32,10 +52,35 @@ defaults:
       title: Essays
       permalink: /post/:title
   - scope:
-      type: news
+      type: posts
     values:
-      title: News
-      permalink: /news/:title
+      title: electronic parts
+      permalink: /aelectronic_parts/:title
+  - scope:
+      type: posts
+    values:
+      title: stm32
+      permalink: /bstm32/:title
+  - scope:
+      type: posts
+    values:
+      title: raspberrypi
+      permalink: /craspberrypi/:title
+  - scope:
+      type: posts
+    values:
+      title: zybo
+      permalink: /dzybo/:title
+  - scope:
+      type: posts
+    values:
+      title: communication
+      permalink: /ecommunication/:title
+  - scope:
+      type: posts
+    values:
+      title: python
+      permalink: /fpython/:title
 
 plugins:
   - jekyll-sitemap
