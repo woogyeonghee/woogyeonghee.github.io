@@ -20,30 +20,19 @@ collections:
     title: All posts
     default_open: false
     output: true
-  aelectronic_parts:
+  arm_architecture:
     title: arm architecture
     default_open: false
     output: true
-  bstm32:
-    title: stm32
+  blinux_kernel:
+    title: linux kernel
     default_open: false
     output: true
-  craspberrypi:
-    title: raspberrypi
+  cdevice_driver:
+    title: device driver
     default_open: false
     output: true
-  dzybo:
-    title: zybo
-    default_open: false
-    output: true
-  ecommunication:
-    title: communication
-    default_open: false
-    output: true
-  fpython:
-    title: solving problems
-    default_open: false
-    output: true
+
 
 defaults:
   - scope:
@@ -59,28 +48,14 @@ defaults:
   - scope:
       type: posts
     values:
-      title: stm32
-      permalink: /bstm32/:title
+      title: linux kernel
+      permalink: /blinux_kernel/:title
   - scope:
       type: posts
     values:
-      title: raspberrypi
-      permalink: /craspberrypi/:title
-  - scope:
-      type: posts
-    values:
-      title: zybo
-      permalink: /dzybo/:title
-  - scope:
-      type: posts
-    values:
-      title: communication
-      permalink: /ecommunication/:title
-  - scope:
-      type: posts
-    values:
-      title: solving problems
-      permalink: /fpython/:title
+      title: device driver
+      permalink: /cdevice_driver/:title
+
 
 plugins:
   - jekyll-sitemap
