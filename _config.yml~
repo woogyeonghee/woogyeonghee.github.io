@@ -21,7 +21,7 @@ collections:
     default_open: false
     output: true
   aelectronic_parts:
-    title: arm architecture
+    title: electronic parts
     default_open: false
     output: true
   bstm32:
@@ -54,8 +54,8 @@ defaults:
   - scope:
       type: posts
     values:
-      title: arm architecture
-      permalink: /arm_architecture/:title
+      title: electronic parts
+      permalink: /aelectronic_parts/:title
   - scope:
       type: posts
     values:
