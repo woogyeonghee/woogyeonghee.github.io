@@ -2,22 +2,15 @@
 layout: post
 title: test
 tags: 
-- text
 ---
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
-# Heading 1
 
-## Heading 2
 
-### Heading 3
 
-#### Heading 4
 
-##### Heading 5
 
-###### Heading 6
+![exception_handler](https://user-images.githubusercontent.com/88933098/133224618-aa05c263-1dba-4fe8-aa00-5c5329a08e4a.png)
 
 ### Body text
 

@@ -32,6 +32,10 @@ collections:
     title: device driver
     default_open: false
     output: true
+  etips:
+    title: tips
+    default_open: false
+    output: true
 
 
 defaults:
@@ -55,7 +59,11 @@ defaults:
     values:
       title: device driver
       permalink: /cdevice_driver/:title
-
+  - scope:
+      type: posts
+    values:
+      title: tips
+      permalink: /etips/:title
 
 plugins:
   - jekyll-sitemap
