@@ -63,7 +63,7 @@ defaults:
       type: posts
     values:
       title: environment setting
-      permalink: /anv/:title
+      permalink: /aenv/:title
   - scope:
       type: posts
     values:
