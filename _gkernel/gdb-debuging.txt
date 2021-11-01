@@ -1,0 +1,14 @@
+
+gdb 디버깅
+gcc -g -o hello hello.c
+gdb hello
+r  			파일 실행
+(gdb) disas main[함수]	어셈블리 표시
+b* 주소			해당 주소 실행 전으로 들어감
+stepi			하위행위
+(nexti			하위행위 함수 무시)
+disas			현재 함수의 어셈블리 표시
+(up			상위함수로 이동
+info break
+del
+

@@ -1,0 +1,14 @@
+삼바
+
+sudo apt-get -y install samba
+
+sudo vim /etc/samba/smb.conf
+
+
+[Shared Folder]
+  comment = First Shared Folder
+  path = /sharedfolder
+  public = yes
+  writable = yes
+
+sudo service smbd restart

@@ -1,0 +1,142 @@
+save
+	:w		:file save
+	:w filename	:save file in filename(a duplicated form)
+	:w! filename	:save file in filename	
+	:wq		:file save and quit
+	:wq! filename	:save file in filename(a duplicated form) and quit
+
+quit
+	:q	:file quit 
+	:q!	:file quit(force to quit,without save)
+
+move
+	h	:left
+	nh	:n coloum left
+	j	:down
+	nj	:n row down
+	k	:up
+	nk	:n row up
+	l	:right
+	nl	:n coloum right
+	$	:move cursors to last coloum of this row  
+	^	:move cursors to first coloum of this row 
+	ngg	:goto n row,without n go first row
+	nG	:goto n row,without n go last row 
+	:n	:goto n row
+	ctrl+u	:pageup 1/2
+	ctrl+d	:pagedown 1/2
+
+check
+	ctrl+G	:check local row
+
+delete
+	x	:delete character
+	dd	:delete local row
+	J	:local row's last coloum add with below row's first row
+	D	:delete local coloum to local row's last coloum
+	:d	:vertual and delete
+
+paste
+	p	:paste it to local row
+	:npu	:paste register at n row
+	P	:paste it to above row
+	yy	:paste local row to register
+	:y
+	Y 
+
+cancel
+	u	:excute before command
+	crtl+R	:excute last command
+
+visual
+	v	:visual coloum
+	V	:visual row
+	ctrl+V	:visual all coloum 
+
+
+insert
+	a	:insert cursors to after one coloum 
+	A	:insert cursors to last coloum of this row  
+	i	:insert cursors to local cursors
+	I	:insert cursors to first coloum of this row
+	o	:make below empty row and insert cursors to first coloum empty
+row
+	O	:make above empty row and insert cursors to first coloum empty
+row
+	R	:write over of local cursors
+
+range	
+	:ncommmand	:nrow's command
+	:n,mcommand	:n~m rows
+	:%command	:all files
+	:.,+command	:local row ~below n row
+	:-n,+mcommand	:local up n rows~local below m rows
+
+set option (:set __)
+	nu		:display line number
+	ai		:in write automatically
+	sindent	:in write version c_language
+	ts=<value>	:set tap size
+	sw=<value>	:set width of row's size
+	tw=<value>	:set text's column length
+	all 		:show all of option
+	no<option>	:option off
+	<option>	:option on
+	no<option>!	:toggle option status
+	<option>=<value>:set option's value
+
+syntax
+	:syntax enable	:grammar
+	:syntax clear	:no grammar
+
+
+set file (.vimrc)
+	
+	
+color
+	:colorscheme <scheme>
+	<scheme>
+	blue,darkblue,default,delek,desert,elflord,evening,koehier,
+	morning,murphy,pablo,peachpuff,ron,shine,slate,torte,zellner
+
+help (:help __)
+	x		:normal
+	i_ctrl-N	:insert
+	:W		:command mode
+	v_u		:visual mode
+	-r		:vim excute command
+	'tapstop'	:option	
+	c_ctrl-b	:command mode special key
+
+tag
+	ctrl-]		:move to title tag
+	ctrl-t		:move to last title tag
+	:tags		:show title tag list
+	
+overlap open vim
+	Q		:read only
+	E		:egnore and edit
+	R		:retore and open
+	Q		:quit vim
+	A		:quit vim(using it in debug)
+
+string
+
+
+search
+	f<char>		:serch char front
+	F<char>		:serch char back
+	t<char>		:serch char front and go one front coloum
+	T<char>		:serch char back adn go one back coloum
+	;		:find last search char command
+	,		:find last search char command of opposite
+	n		:after search go next
+	N		:after search go back
+	/<string>	:search string if u want quit view searching no word
+in text
+
+change
+	g		:after visual chan 
+	 
+	
+

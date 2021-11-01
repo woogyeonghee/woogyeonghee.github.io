@@ -1,0 +1,7 @@
+
+깃허브 연동
+깃허브
+1.setting
+2.ssh and gpg keys
+3. new ssh key
+4. add

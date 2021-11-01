@@ -1,0 +1,6 @@
+
+opencv 라이브러리 설치
+https://bebutae.tistory.com/153
+
+opencv 설치
+https://solarianprogrammer.com/2019/09/17/install-opencv-raspberry-pi-raspbian-cpp-python-development/

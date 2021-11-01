@@ -1,0 +1,3 @@
+
+원격 저장소 origin 이름 변경(기존 orgin 잘못입력시)
+1.git remote rename orgin origin

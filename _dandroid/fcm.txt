@@ -1,0 +1,55 @@
+
+java se 11 다운
+
+fcm  프로젝트 생성
+https://firebase.google.com/
+
+안드로이드 앱추가
+
+https://github.com/firebase/quickstart-android/blob/master/messaging/README.md
+다운로드
+자바부분만 사용할거라
+코틀린 관련 내용 지우기
+
+fcm 안내대로 실행하기 
+
+이부분에 google 에러 뜸 주의
+allprojects {
+  ...
+  repositories {
+    // Check that you have the following line (if not, add it):
+    //google()  // Google's Maven repository
+
+    ...
+  }
+}
+이부분은 맨밑에다가 추가
+apply plugin: 'com.android.application'
+
+// Add this line
+apply plugin: 'com.google.gms.google-services'
+
+
+
+xml 고치기
+
+
+        <activity android:name="MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+sync new 클릭
+될때까지
+
+된 후에 ActivityMainBinding에러 뜸
+이부분은
+gradle(app)의 안드로이드 괄호 안 맨 밑에 
+ dataBinding{
+        enabled =true
+    }
+
+

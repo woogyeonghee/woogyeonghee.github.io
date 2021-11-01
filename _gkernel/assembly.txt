@@ -1,0 +1,11 @@
+-- push : 뒤에서 부터 스택에 값 저장
+-- add Rd,Rn,#n : Rd에 Rn+n 을 저장
+-- sub Rd,Rn,#n :Rn-n 한 값을 Rd에 저장
+-- str Rd,[Rn,#n] : Rn+n 번지에 Rd값을 집어넣음
+-- sp : c언어 사용시 스택의 주소를 저장하는 레지스터
+-- ldr Rd,[pc,#n] ;주소<> : Rd에*(pc+n)을 집어 넣을 때  주소는pc+n
+-- bl 주소 <> : <>명령어를 lr에 저장
+-- mov Rd,Rn : Rd에 Rn을 집어넣는다
+-- muleq R1,R2,R3 : R2와 R3를 곱한값이 R1과 같은지 비교  
+-- pop : 뒤에서부터 pop
+-- lsr #n : n만큼 오른쪽 논리 쉬프트

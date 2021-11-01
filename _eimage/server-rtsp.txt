@@ -1,0 +1,13 @@
+카메라 라즈베리파이
+1. pi-config 카메라 온 리부트
+2. vcgencmd get_camera
+3. sudo modprobe bcm2835-v4l2
+
+카메라 라즈베리파이 서버에 띄우는 법
+https://blog.naver.com/cosmosjs/220711779298
+rtsp://169.254.41.9:8555/unicast
+sudo ./v4l2rtspserver -F 25 -W 1280 -H 720 -P 8555 /dev/video0
+
+rstp html 변환
+https://m.blog.naver.com/khsmonad/221772683672
+http://www.b1ix.net/419

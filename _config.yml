@@ -20,23 +20,38 @@ collections:
     title: All posts
     default_open: false
     output: true
-  arm_architecture:
-    title: arm architecture
+  aenv:
+    title: environment setting
     default_open: false
     output: true
-  blinux_kernel:
-    title: linux kernel
+  bdata:
+    title: data communication
     default_open: false
     output: true
-  cdevice_driver:
-    title: device driver
+  cnodejs:
+    title: nodejs
     default_open: false
     output: true
-  etips:
-    title: tips
+  dandroid:
+    title: android
     default_open: false
     output: true
-
+  eimage:
+    title: image
+    default_open: false
+    output: true
+  fgit:
+    title: git
+    default_open: false
+    output: true
+  gkernel:
+    title: kernel
+    default_open: false
+    output: true
+  hutil:
+    title: util
+    default_open: false
+    output: true
 
 defaults:
   - scope:
@@ -47,23 +62,45 @@ defaults:
   - scope:
       type: posts
     values:
-      title: arm architecture
-      permalink: /arm_architecture/:title
+      title: environment setting
+      permalink: /anv/:title
   - scope:
       type: posts
     values:
-      title: linux kernel
-      permalink: /blinux_kernel/:title
+      title: communication
+      permalink: /bdata/:title
   - scope:
       type: posts
     values:
-      title: device driver
-      permalink: /cdevice_driver/:title
+      title: nodejs
+      permalink: /cnodejs/:title
   - scope:
       type: posts
     values:
-      title: tips
-      permalink: /etips/:title
+      title: android
+      permalink: /dandroid/:title
+  - scope:
+      type: posts
+    values:
+      title: image
+      permalink: /eimage/:title
+  - scope:
+      type: posts
+    values:
+      title: git
+      permalink: /fgit/:title
+  - scope:
+      type: posts
+    values:
+      title: kernel
+      permalink: /gkernel/:title
+  - scope:
+      type: posts
+    values:
+      title: util
+      permalink: /hutil/:title
 
+      
+      
 plugins:
   - jekyll-sitemap
