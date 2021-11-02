@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Post
+title: image
 tags: 
 - text
 ---

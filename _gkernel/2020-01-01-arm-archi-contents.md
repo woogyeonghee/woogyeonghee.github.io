@@ -1,6 +1,6 @@
 ---
 layout: post
-title: arm architecture
+title: kernel
 tags: 
 - text
 ---

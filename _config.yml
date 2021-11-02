@@ -29,7 +29,7 @@ collections:
     default_open: false
     output: true
   cnodejs:
-    title: nodejs
+    title: server
     default_open: false
     output: true
   dandroid:
@@ -72,8 +72,8 @@ defaults:
   - scope:
       type: posts
     values:
-      title: nodejs
-      permalink: /cnodejs/:title
+      title: server
+      permalink: /cserver/:title
   - scope:
       type: posts
     values:

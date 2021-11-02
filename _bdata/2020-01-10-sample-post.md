@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample Post
+title: data communication
 tags: 
 - text
 ---
