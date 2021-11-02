@@ -28,7 +28,7 @@ collections:
     title: data communication
     default_open: false
     output: true
-  cnodejs:
+  cserver:
     title: server
     default_open: false
     output: true
