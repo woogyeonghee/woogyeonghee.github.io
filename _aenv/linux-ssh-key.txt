@@ -1,6 +1,0 @@
-ssh-kye 생성
-리눅스 홈
-1.ssh-keygen -t rsa
- - 엔터 엔터
-2.cat ~/.ssh/i_rsa.pub
-3.복사
