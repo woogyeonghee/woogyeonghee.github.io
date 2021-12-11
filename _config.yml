@@ -52,6 +52,10 @@ collections:
     title: util
     default_open: false
     output: true
+  firmware:
+    title: firmware
+    default_open: false
+    output: true
 
 defaults:
   - scope:
@@ -99,7 +103,11 @@ defaults:
     values:
       title: util
       permalink: /hutil/:title
-
+  - scope:
+      type: posts
+    values:
+      title: firmware
+      permalink: /firmware/:title
       
       
 plugins:
