@@ -86,6 +86,7 @@ tags:
 |매개변수|1. fd : 홤수 실행 경과로 반환된 파일 디스크립터<br/>2. buf : 읽은 데이터가 저장될 공간의 주소.<br/> &nbsp;(주소가 가리키는 공간의 크기 > count값) <br/>3. count : 디바이스 파일에서 읽어올 데이터의 크기<br/>&nbsp;(count< SSIZE_MAX, if count==0 즉시 실행 종료)|
 |반환값|읽은 바이트수 : 성공 <br/>-1 : 실패 <br/>- error 값<br/> &nbsp;&nbsp;>> EINTR : 어떤 데이터를 읽기도 전에 함수가 신호에 의해 인터럽트 되었다<br/> &nbsp;&nbsp;>> EAGIAN : O_NONBLOCK으로 열렸지만 read 호출 시에 즉시 읽을 수 있는 데이터가 없다<br/> &nbsp;&nbsp;>> EIO : 디바이스 파일에서 데이터를 읽는 동안 I/O 에러가 발생했다<br/> &nbsp;&nbsp;>> EBADF : fd가 유효한 파일 디스크립터가 아니거나 읽기 위해 열리지 않았다 <br/> &nbsp;&nbsp;>> EINVAL : fd가 읽기에 적당하지 않는 객체와 연결되었다 <br/> &nbsp;&nbsp;>> EFAULT : buf가 접근할 수 없는 주소 공간을 가리키고 있다|
 |&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; ||
+
 ## 2.2.2 예제 - read
   ~~~
   ret_num = read(fd, buff, 10);
@@ -155,7 +156,8 @@ tags:
 |설명|1. read()와 write()로 처리하기 힘든 입출력에 사용된다<br/>2. 실질적인 각 값의 의미는 각 디바이스 파일마다 다르게 해석된다<br/>3.ioctl() 함수의 매개변수의 수는 가변적으로 문법상 표현되기는 하나 최대 3개 까지 허용된다.<br/> &nbsp; (세번째인자는 전통적으로 char *argp로 표현한다) |
 |매개변수|1. fd : open() 함수의 실행결과로 반환된 파일 디스크립터 <br/>2. request: 디바이스 파일에 연동된 디바이스 드라이버에세 취해야 할 명령을 정의한다. 이 값은 매크로에 의해서 출력용 명령인지 입력용 명령인지 argp기 지정하는 값이 기억 공간의 주소일 경우 전달활 인자에 대하여 바이트 단위의 크기를 나타낸다 <br/>3. ... : 세번째 매개변수는 argp로 지칭되기도 하는데 request에 따른다. request 명령을 처리하는 보조적인 정보값이다|
 |반환값|0 : 성공 <br/> -1 : 실패<br/>-error<br/> &nbsp;&nbsp;>> EFAULT : argp는 접근할 수 없는 메모리 영역을 가리킨다<br/> &nbsp;&nbsp;>> ENOTTY : fd는 문자 디바이스 파일과 연관되어 있지 않다 <br/> &nbsp;&nbsp;>> EINVAL : 디바이스 파일에 연동된 디바이스 드라이버가 request 또는 argp를 처리할 수 없다 |
-|&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;||
+|&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;||
+
 
 ## 2.4.1 ioctl() : read(),write()로 다루지 않는 특수한 제어를 한다
 
