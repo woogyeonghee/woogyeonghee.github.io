@@ -104,7 +104,7 @@ tags:
   
 ## 2.2.3 write() : 파일에 데이터를 쓴다
   
-분류|내용|
+|분류|내용|
 |:--------:|:--------|
 |기능|디바이스 파일에 데이터를 쓴다|
 |형태|#include <unistd.h> <br/><br/>ssize_t write(int fd, void *buf, size_t count);|
