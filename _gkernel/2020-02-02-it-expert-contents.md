@@ -21,6 +21,8 @@ tags:
 ## B
 ## C
  - close() p.98 Devfile & low level file I/O 
+ - check_region() p.215 memmory assign & release (0)
+ - check_mem_region() p.216 memmory assign & release (0)
 ## D
  - depmod p.111 module
 ## E
@@ -43,12 +45,18 @@ tags:
 ## N
 ## O
  - open() p.97 Dev file & low level file I/O 
+ - open() p.214 memmory assign & release (0)
 ## P
  - printk() p.125 module
 ## Q
 ## R
  - read() p.99 Dev file & low level file I/O 
  - rmmod p.112 module
+ - release() p.214 memmory assign & release (0)
+ - request_region() p.215 memmory assign & release (0)
+ - release_region() p.215memmory assign & release (0)
+ - request_mem_region() p.216 memmory assign & release (0)
+ - release_mem_region() p.216memmory assign & release (0)
 ## S
 ## T
 ## U
