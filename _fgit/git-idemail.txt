@@ -1,4 +1,0 @@
-
-아이디 이메일 등록
-1.git config --global user.email "dnrudgml119@naver.com"
-2.git config --global user.name "woogyeonghee"

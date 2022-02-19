@@ -1,6 +1,0 @@
-https://kakao-pc.tistory.com/49
-dmesg | grep ttyS*
-
-sudo apt install socat
-
-socat -d -d pty,raw,echo=0 pty,raw,echo=0

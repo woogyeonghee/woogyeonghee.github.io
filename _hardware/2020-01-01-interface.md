@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ssh-keyggen
+title: hardware 
 tags: 
 - text
 ---

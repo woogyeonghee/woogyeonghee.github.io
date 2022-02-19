@@ -1,7 +1,0 @@
-라즈베리 파이 vnc viewer 연동
-라즈베리 파이
- config ssh, vnc enable 
-상단의 vnc 클릭
-
-컴퓨터 
-vnc viewer에 라즈베리파이 ip 주소 입력

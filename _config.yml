@@ -16,44 +16,16 @@ featured_posts:
     title: 'Featured post #3'
 
 collections:
-  posts:
-    title: All posts
+  workskill:
+    title: skill
     default_open: false
     output: true
-  aenv:
-    title: environment setting
+  hardware:
+    title: hardware
     default_open: false
     output: true
-  bdata:
-    title: data communication
-    default_open: false
-    output: true
-  cserver:
-    title: server
-    default_open: false
-    output: true
-  dandroid:
-    title: android
-    default_open: false
-    output: true
-  eimage:
-    title: image
-    default_open: false
-    output: true
-  fgit:
-    title: git
-    default_open: false
-    output: true
-  gkernel:
+  kernel:
     title: kernel
-    default_open: false
-    output: true
-  hutil:
-    title: util
-    default_open: false
-    output: true
-  firmware:
-    title: firmware
     default_open: false
     output: true
 
@@ -61,54 +33,18 @@ defaults:
   - scope:
       type: posts
     values:
-      title: Essays
-      permalink: /post/:title
+      title: skill
+      permalink: /workskill/:title
   - scope:
       type: posts
     values:
-      title: environment setting
-      permalink: /aenv/:title
-  - scope:
-      type: posts
-    values:
-      title: communication
-      permalink: /bdata/:title
-  - scope:
-      type: posts
-    values:
-      title: server
-      permalink: /cserver/:title
-  - scope:
-      type: posts
-    values:
-      title: android
-      permalink: /dandroid/:title
-  - scope:
-      type: posts
-    values:
-      title: image
-      permalink: /eimage/:title
-  - scope:
-      type: posts
-    values:
-      title: git
-      permalink: /fgit/:title
+      title: hardware
+      permalink: /hardware/:title
   - scope:
       type: posts
     values:
       title: kernel
-      permalink: /gkernel/:title
-  - scope:
-      type: posts
-    values:
-      title: util
-      permalink: /hutil/:title
-  - scope:
-      type: posts
-    values:
-      title: firmware
-      permalink: /firmware/:title
-      
+      permalink: /kernel/:title
       
 plugins:
   - jekyll-sitemap

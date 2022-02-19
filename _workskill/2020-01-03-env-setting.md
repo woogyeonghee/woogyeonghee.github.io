@@ -1,3 +1,10 @@
+---
+layout: post
+title: environment setting text editor
+tags: 
+- text
+---
+
 플러그인
 
 플러그인 관리

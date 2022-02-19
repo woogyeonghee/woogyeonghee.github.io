@@ -1,4 +1,0 @@
-레파지토리 가져오기(장치-origin, 클라우드-master
-1.git init
-2.git remote add origin master ssh 주소
-3.git pull origin master

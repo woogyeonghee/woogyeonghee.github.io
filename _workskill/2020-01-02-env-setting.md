@@ -1,10 +1,9 @@
 ---
 layout: post
-title: install
+title: environment setting UART communiction APP
 tags: 
 - text
 ---
-<br/><br/><br/><br/><br/><br/>
 
 # linux와 windows 유용한 apt들
 
