@@ -1,3 +1,0 @@
-ruby 터미널
-bundle exec jekll serve
-git 커밋 푸쉬
